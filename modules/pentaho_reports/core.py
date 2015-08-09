@@ -143,8 +143,8 @@ def get_proxy_args(instance, cr, uid, prpt_content, context_vars={}):
                       'connection_settings': {'openerp': {'host': xml_interface,
                                                           'port': xml_port,
                                                           'db': cr.dbname,
-                                                          'login': 'report', #current_user.login,
-                                                          'password': '%s%s' % (SKIP_DATE, 'pentaho'),#current_user.password),
+                                                          'login': current_user.login,
+                                                          'password': '%s%s' % (SKIP_DATE, current_user.password),
                                                           }},
                       'report_parameters': dict([(param_name, param_formula(instance, cr, uid, context_vars)) for (param_name, param_formula) in RESERVED_PARAMS.iteritems() if param_formula(instance, cr, uid, context_vars)]),
                       }
