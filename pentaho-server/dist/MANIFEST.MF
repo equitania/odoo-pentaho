@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.9.4
+Created-By: 1.8.0_51-b16 (Oracle Corporation)
+Implementation-Title: Pentaho Reports for OpenERP
+Implementation-Version: 8.0.3.development
+Implementation-Vendor: Pentaho Corporation
+Implementation-ProductID: pentaho-reports-for-openerp
+

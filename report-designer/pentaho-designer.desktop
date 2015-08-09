@@ -1,0 +1,16 @@
+[Desktop Entry]
+Name=Pentaho Designer
+Comment=Pentaho Report Designer
+Exec=java -jar /opt/report-designer/launcher.jar
+Terminal=false
+Type=Application
+Icon=/opt/report-designer/pentaho.png
+Categories=Application;IDE;Development;GTK;GUIDesigner;
+StartupWMClass=Lazarus
+MimeType=text/prpt
+Keywords=editor;reports;IDE;Design;Designer;
+[Property::X-KDE-NativeExtension]
+Type=QString
+Value=.prpt
+X-Ubuntu-Gettext-Domain=desktop_kdelibs
+
