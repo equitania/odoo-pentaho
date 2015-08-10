@@ -1,0 +1,751 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* pentaho_reports
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0 Build 1508002\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-08-10 19:58+0000\n"
+"PO-Revision-Date: 2015-08-10 22:14+0200\n"
+"Last-Translator: Martin Schmid <m.schmid@equitania.de>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: de\n"
+"X-Generator: Poedit 1.8.3\n"
+
+#. module: pentaho_reports
+#: field:ir.actions.report.multivalues.promptwizard,x2m_unique_id:0
+#: field:ir.actions.report.promptwizard,x2m_unique_id:0
+msgid "2M Unique Id"
+msgstr "2M Unique Id"
+
+#. module: pentaho_reports
+#: field:ir.actions.report.promptwizard,param_000_boolean_value:0
+#: field:ir.actions.report.promptwizard,param_001_boolean_value:0
+#: field:ir.actions.report.promptwizard,param_002_boolean_value:0
+#: field:ir.actions.report.promptwizard,param_003_boolean_value:0
+#: field:ir.actions.report.promptwizard,param_004_boolean_value:0
+#: field:ir.actions.report.promptwizard,param_005_boolean_value:0
+#: field:ir.actions.report.promptwizard,param_006_boolean_value:0
+#: field:ir.actions.report.promptwizard,param_007_boolean_value:0
+#: field:ir.actions.report.promptwizard,param_008_boolean_value:0
+#: field:ir.actions.report.promptwizard,param_009_boolean_value:0
+#: field:ir.actions.report.promptwizard,param_010_boolean_value:0
+#: field:ir.actions.report.promptwizard,param_011_boolean_value:0
+#: field:ir.actions.report.promptwizard,param_012_boolean_value:0
+#: field:ir.actions.report.promptwizard,param_013_boolean_value:0
+#: field:ir.actions.report.promptwizard,param_014_boolean_value:0
+#: field:ir.actions.report.promptwizard,param_015_boolean_value:0
+#: field:ir.actions.report.promptwizard,param_016_boolean_value:0
+#: field:ir.actions.report.promptwizard,param_017_boolean_value:0
+#: field:ir.actions.report.promptwizard,param_018_boolean_value:0
+#: field:ir.actions.report.promptwizard,param_019_boolean_value:0
+#: field:ir.actions.report.promptwizard,param_020_boolean_value:0
+#: field:ir.actions.report.promptwizard,param_021_boolean_value:0
+#: field:ir.actions.report.promptwizard,param_022_boolean_value:0
+#: field:ir.actions.report.promptwizard,param_023_boolean_value:0
+#: field:ir.actions.report.promptwizard,param_024_boolean_value:0
+#: field:ir.actions.report.promptwizard,param_025_boolean_value:0
+#: field:ir.actions.report.promptwizard,param_026_boolean_value:0
+#: field:ir.actions.report.promptwizard,param_027_boolean_value:0
+#: field:ir.actions.report.promptwizard,param_028_boolean_value:0
+#: field:ir.actions.report.promptwizard,param_029_boolean_value:0
+#: field:ir.actions.report.promptwizard,param_030_boolean_value:0
+#: field:ir.actions.report.promptwizard,param_031_boolean_value:0
+#: field:ir.actions.report.promptwizard,param_032_boolean_value:0
+#: field:ir.actions.report.promptwizard,param_033_boolean_value:0
+#: field:ir.actions.report.promptwizard,param_034_boolean_value:0
+#: field:ir.actions.report.promptwizard,param_035_boolean_value:0
+#: field:ir.actions.report.promptwizard,param_036_boolean_value:0
+#: field:ir.actions.report.promptwizard,param_037_boolean_value:0
+#: field:ir.actions.report.promptwizard,param_038_boolean_value:0
+#: field:ir.actions.report.promptwizard,param_039_boolean_value:0
+#: field:ir.actions.report.promptwizard,param_040_boolean_value:0
+#: field:ir.actions.report.promptwizard,param_041_boolean_value:0
+#: field:ir.actions.report.promptwizard,param_042_boolean_value:0
+#: field:ir.actions.report.promptwizard,param_043_boolean_value:0
+#: field:ir.actions.report.promptwizard,param_044_boolean_value:0
+#: field:ir.actions.report.promptwizard,param_045_boolean_value:0
+#: field:ir.actions.report.promptwizard,param_046_boolean_value:0
+#: field:ir.actions.report.promptwizard,param_047_boolean_value:0
+#: field:ir.actions.report.promptwizard,param_048_boolean_value:0
+#: field:ir.actions.report.promptwizard,param_049_boolean_value:0
+msgid "Boolean Value"
+msgstr "Boolean Wert"
+
+#. module: pentaho_reports
+#: selection:ir.actions.report.xml,pentaho_report_output_type:0
+msgid "CSV"
+msgstr "CSV"
+
+#. module: pentaho_reports
+#: help:ir.actions.report.promptwizard,output_type:0
+msgid "Choose the format for the output"
+msgstr "Wählen Sie das Format für die Ausgabe"
+
+#. module: pentaho_reports
+#: selection:ir.actions.report.promptwizard,output_type:0
+msgid "Comma Separated Values (csv)"
+msgstr "Kommagetrennte Werte (CSV)"
+
+#. module: pentaho_reports
+#: code:addons/pentaho_reports/ui.py:241
+#, python-format
+msgid "Could not locate path for file %s"
+msgstr "Pfad für die Datei %s konnte nicht gefunden werden."
+
+#. module: pentaho_reports
+#: field:ir.actions.report.multivalues.promptwizard,create_uid:0
+#: field:ir.actions.report.promptwizard,create_uid:0
+msgid "Created by"
+msgstr "Erstellt durch"
+
+#. module: pentaho_reports
+#: field:ir.actions.report.xml,created_menu_id:0
+msgid "Created menu item"
+msgstr "Erstellter Menüeintrag"
+
+#. module: pentaho_reports
+#: field:ir.actions.report.multivalues.promptwizard,create_date:0
+#: field:ir.actions.report.promptwizard,create_date:0
+msgid "Created on"
+msgstr "Erstellt am"
+
+#. module: pentaho_reports
+#: field:ir.actions.report.promptwizard,param_000_date_value:0
+#: field:ir.actions.report.promptwizard,param_001_date_value:0
+#: field:ir.actions.report.promptwizard,param_002_date_value:0
+#: field:ir.actions.report.promptwizard,param_003_date_value:0
+#: field:ir.actions.report.promptwizard,param_004_date_value:0
+#: field:ir.actions.report.promptwizard,param_005_date_value:0
+#: field:ir.actions.report.promptwizard,param_006_date_value:0
+#: field:ir.actions.report.promptwizard,param_007_date_value:0
+#: field:ir.actions.report.promptwizard,param_008_date_value:0
+#: field:ir.actions.report.promptwizard,param_009_date_value:0
+#: field:ir.actions.report.promptwizard,param_010_date_value:0
+#: field:ir.actions.report.promptwizard,param_011_date_value:0
+#: field:ir.actions.report.promptwizard,param_012_date_value:0
+#: field:ir.actions.report.promptwizard,param_013_date_value:0
+#: field:ir.actions.report.promptwizard,param_014_date_value:0
+#: field:ir.actions.report.promptwizard,param_015_date_value:0
+#: field:ir.actions.report.promptwizard,param_016_date_value:0
+#: field:ir.actions.report.promptwizard,param_017_date_value:0
+#: field:ir.actions.report.promptwizard,param_018_date_value:0
+#: field:ir.actions.report.promptwizard,param_019_date_value:0
+#: field:ir.actions.report.promptwizard,param_020_date_value:0
+#: field:ir.actions.report.promptwizard,param_021_date_value:0
+#: field:ir.actions.report.promptwizard,param_022_date_value:0
+#: field:ir.actions.report.promptwizard,param_023_date_value:0
+#: field:ir.actions.report.promptwizard,param_024_date_value:0
+#: field:ir.actions.report.promptwizard,param_025_date_value:0
+#: field:ir.actions.report.promptwizard,param_026_date_value:0
+#: field:ir.actions.report.promptwizard,param_027_date_value:0
+#: field:ir.actions.report.promptwizard,param_028_date_value:0
+#: field:ir.actions.report.promptwizard,param_029_date_value:0
+#: field:ir.actions.report.promptwizard,param_030_date_value:0
+#: field:ir.actions.report.promptwizard,param_031_date_value:0
+#: field:ir.actions.report.promptwizard,param_032_date_value:0
+#: field:ir.actions.report.promptwizard,param_033_date_value:0
+#: field:ir.actions.report.promptwizard,param_034_date_value:0
+#: field:ir.actions.report.promptwizard,param_035_date_value:0
+#: field:ir.actions.report.promptwizard,param_036_date_value:0
+#: field:ir.actions.report.promptwizard,param_037_date_value:0
+#: field:ir.actions.report.promptwizard,param_038_date_value:0
+#: field:ir.actions.report.promptwizard,param_039_date_value:0
+#: field:ir.actions.report.promptwizard,param_040_date_value:0
+#: field:ir.actions.report.promptwizard,param_041_date_value:0
+#: field:ir.actions.report.promptwizard,param_042_date_value:0
+#: field:ir.actions.report.promptwizard,param_043_date_value:0
+#: field:ir.actions.report.promptwizard,param_044_date_value:0
+#: field:ir.actions.report.promptwizard,param_045_date_value:0
+#: field:ir.actions.report.promptwizard,param_046_date_value:0
+#: field:ir.actions.report.promptwizard,param_047_date_value:0
+#: field:ir.actions.report.promptwizard,param_048_date_value:0
+#: field:ir.actions.report.promptwizard,param_049_date_value:0
+msgid "Date Value"
+msgstr "Datumswert"
+
+#. module: pentaho_reports
+#: field:ir.actions.report.multivalues.promptwizard,entry_num:0
+msgid "Entry Num"
+msgstr "Eintrag Nummer"
+
+#. module: pentaho_reports
+#: code:addons/pentaho_reports/core.py:192
+#: code:addons/pentaho_reports/core.py:239
+#: code:addons/pentaho_reports/ui.py:241 code:addons/pentaho_reports/ui.py:279
+#: code:addons/pentaho_reports/ui.py:286 code:addons/pentaho_reports/ui.py:293
+#: code:addons/pentaho_reports/ui.py:295 code:addons/pentaho_reports/ui.py:302
+#: code:addons/pentaho_reports/ui.py:309 code:addons/pentaho_reports/ui.py:328
+#: code:addons/pentaho_reports/ui.py:331
+#: code:addons/pentaho_reports/wizard/report_prompt.py:113
+#: code:addons/pentaho_reports/wizard/report_prompt.py:116
+#: code:addons/pentaho_reports/wizard/report_prompt.py:170
+#: code:addons/pentaho_reports/wizard/report_prompt.py:175
+#: code:addons/pentaho_reports/wizard/report_prompt.py:182
+#: code:addons/pentaho_reports/wizard/report_prompt.py:210
+#, python-format
+msgid "Error"
+msgstr "Fehler"
+
+#. module: pentaho_reports
+#: selection:ir.actions.report.xml,pentaho_report_output_type:0
+msgid "Excel"
+msgstr "Excel"
+
+#. module: pentaho_reports
+#: selection:ir.actions.report.xml,pentaho_report_output_type:0
+msgid "Excel 2007"
+msgstr "Excel 2007"
+
+#. module: pentaho_reports
+#: selection:ir.actions.report.promptwizard,output_type:0
+msgid "Excel 2007 Spreadsheet (xlsx)"
+msgstr "Excel 2007 Spreadsheet (xlsx)"
+
+#. module: pentaho_reports
+#: selection:ir.actions.report.promptwizard,output_type:0
+msgid "Excel Spreadsheet (xls)"
+msgstr "Excel Spreadsheet (xls)"
+
+#. module: pentaho_reports
+#: field:ir.actions.report.xml,pentaho_file:0
+msgid "File"
+msgstr "Datei"
+
+#. module: pentaho_reports
+#: field:ir.actions.report.xml,pentaho_filename:0
+msgid "Filename"
+msgstr "Dateiname"
+
+#. module: pentaho_reports
+#: selection:ir.actions.report.xml,pentaho_report_output_type:0
+msgid "HTML"
+msgstr "HTML"
+
+#. module: pentaho_reports
+#: selection:ir.actions.report.promptwizard,output_type:0
+msgid "HyperText (html)"
+msgstr "HyperText (html)"
+
+#. module: pentaho_reports
+#: field:ir.actions.report.multivalues.promptwizard,id:0
+#: field:ir.actions.report.promptwizard,id:0
+msgid "ID"
+msgstr "ID"
+
+#. module: pentaho_reports
+#: field:ir.actions.report.promptwizard,param_000_integer_value:0
+#: field:ir.actions.report.promptwizard,param_001_integer_value:0
+#: field:ir.actions.report.promptwizard,param_002_integer_value:0
+#: field:ir.actions.report.promptwizard,param_003_integer_value:0
+#: field:ir.actions.report.promptwizard,param_004_integer_value:0
+#: field:ir.actions.report.promptwizard,param_005_integer_value:0
+#: field:ir.actions.report.promptwizard,param_006_integer_value:0
+#: field:ir.actions.report.promptwizard,param_007_integer_value:0
+#: field:ir.actions.report.promptwizard,param_008_integer_value:0
+#: field:ir.actions.report.promptwizard,param_009_integer_value:0
+#: field:ir.actions.report.promptwizard,param_010_integer_value:0
+#: field:ir.actions.report.promptwizard,param_011_integer_value:0
+#: field:ir.actions.report.promptwizard,param_012_integer_value:0
+#: field:ir.actions.report.promptwizard,param_013_integer_value:0
+#: field:ir.actions.report.promptwizard,param_014_integer_value:0
+#: field:ir.actions.report.promptwizard,param_015_integer_value:0
+#: field:ir.actions.report.promptwizard,param_016_integer_value:0
+#: field:ir.actions.report.promptwizard,param_017_integer_value:0
+#: field:ir.actions.report.promptwizard,param_018_integer_value:0
+#: field:ir.actions.report.promptwizard,param_019_integer_value:0
+#: field:ir.actions.report.promptwizard,param_020_integer_value:0
+#: field:ir.actions.report.promptwizard,param_021_integer_value:0
+#: field:ir.actions.report.promptwizard,param_022_integer_value:0
+#: field:ir.actions.report.promptwizard,param_023_integer_value:0
+#: field:ir.actions.report.promptwizard,param_024_integer_value:0
+#: field:ir.actions.report.promptwizard,param_025_integer_value:0
+#: field:ir.actions.report.promptwizard,param_026_integer_value:0
+#: field:ir.actions.report.promptwizard,param_027_integer_value:0
+#: field:ir.actions.report.promptwizard,param_028_integer_value:0
+#: field:ir.actions.report.promptwizard,param_029_integer_value:0
+#: field:ir.actions.report.promptwizard,param_030_integer_value:0
+#: field:ir.actions.report.promptwizard,param_031_integer_value:0
+#: field:ir.actions.report.promptwizard,param_032_integer_value:0
+#: field:ir.actions.report.promptwizard,param_033_integer_value:0
+#: field:ir.actions.report.promptwizard,param_034_integer_value:0
+#: field:ir.actions.report.promptwizard,param_035_integer_value:0
+#: field:ir.actions.report.promptwizard,param_036_integer_value:0
+#: field:ir.actions.report.promptwizard,param_037_integer_value:0
+#: field:ir.actions.report.promptwizard,param_038_integer_value:0
+#: field:ir.actions.report.promptwizard,param_039_integer_value:0
+#: field:ir.actions.report.promptwizard,param_040_integer_value:0
+#: field:ir.actions.report.promptwizard,param_041_integer_value:0
+#: field:ir.actions.report.promptwizard,param_042_integer_value:0
+#: field:ir.actions.report.promptwizard,param_043_integer_value:0
+#: field:ir.actions.report.promptwizard,param_044_integer_value:0
+#: field:ir.actions.report.promptwizard,param_045_integer_value:0
+#: field:ir.actions.report.promptwizard,param_046_integer_value:0
+#: field:ir.actions.report.promptwizard,param_047_integer_value:0
+#: field:ir.actions.report.promptwizard,param_048_integer_value:0
+#: field:ir.actions.report.promptwizard,param_049_integer_value:0
+msgid "Integer Value"
+msgstr "Ganzzahl"
+
+#. module: pentaho_reports
+#: code:addons/pentaho_reports/wizard/report_prompt.py:182
+#, python-format
+msgid "Invalid report associated with menu item."
+msgstr "Ungültiger Bericht Menüelement zugeordnet."
+
+#. module: pentaho_reports
+#: field:ir.actions.report.multivalues.promptwizard,write_uid:0
+#: field:ir.actions.report.promptwizard,write_uid:0
+msgid "Last Updated by"
+msgstr "Zuletzt aktualisiert durch"
+
+#. module: pentaho_reports
+#: field:ir.actions.report.multivalues.promptwizard,write_date:0
+#: field:ir.actions.report.promptwizard,write_date:0
+msgid "Last Updated on"
+msgstr "Zuletzt bearbeitet am"
+
+#. module: pentaho_reports
+#: field:ir.actions.report.xml,linked_menu_id:0
+msgid "Linked menu item"
+msgstr "Verknüpfte Menüpunkt"
+
+#. module: pentaho_reports
+#: field:ir.actions.report.xml,pentaho_load_file:0
+msgid "Load prpt file from filename"
+msgstr "Lade prpt Datei mit dem Dateinamen"
+
+#. module: pentaho_reports
+#: field:ir.actions.report.xml,pentaho_report_model_id:0
+msgid "Model"
+msgstr "Modell"
+
+#. module: pentaho_reports
+#: field:ir.actions.report.promptwizard,param_000_2m_value:0
+#: field:ir.actions.report.promptwizard,param_001_2m_value:0
+#: field:ir.actions.report.promptwizard,param_002_2m_value:0
+#: field:ir.actions.report.promptwizard,param_003_2m_value:0
+#: field:ir.actions.report.promptwizard,param_004_2m_value:0
+#: field:ir.actions.report.promptwizard,param_005_2m_value:0
+#: field:ir.actions.report.promptwizard,param_006_2m_value:0
+#: field:ir.actions.report.promptwizard,param_007_2m_value:0
+#: field:ir.actions.report.promptwizard,param_008_2m_value:0
+#: field:ir.actions.report.promptwizard,param_009_2m_value:0
+#: field:ir.actions.report.promptwizard,param_010_2m_value:0
+#: field:ir.actions.report.promptwizard,param_011_2m_value:0
+#: field:ir.actions.report.promptwizard,param_012_2m_value:0
+#: field:ir.actions.report.promptwizard,param_013_2m_value:0
+#: field:ir.actions.report.promptwizard,param_014_2m_value:0
+#: field:ir.actions.report.promptwizard,param_015_2m_value:0
+#: field:ir.actions.report.promptwizard,param_016_2m_value:0
+#: field:ir.actions.report.promptwizard,param_017_2m_value:0
+#: field:ir.actions.report.promptwizard,param_018_2m_value:0
+#: field:ir.actions.report.promptwizard,param_019_2m_value:0
+#: field:ir.actions.report.promptwizard,param_020_2m_value:0
+#: field:ir.actions.report.promptwizard,param_021_2m_value:0
+#: field:ir.actions.report.promptwizard,param_022_2m_value:0
+#: field:ir.actions.report.promptwizard,param_023_2m_value:0
+#: field:ir.actions.report.promptwizard,param_024_2m_value:0
+#: field:ir.actions.report.promptwizard,param_025_2m_value:0
+#: field:ir.actions.report.promptwizard,param_026_2m_value:0
+#: field:ir.actions.report.promptwizard,param_027_2m_value:0
+#: field:ir.actions.report.promptwizard,param_028_2m_value:0
+#: field:ir.actions.report.promptwizard,param_029_2m_value:0
+#: field:ir.actions.report.promptwizard,param_030_2m_value:0
+#: field:ir.actions.report.promptwizard,param_031_2m_value:0
+#: field:ir.actions.report.promptwizard,param_032_2m_value:0
+#: field:ir.actions.report.promptwizard,param_033_2m_value:0
+#: field:ir.actions.report.promptwizard,param_034_2m_value:0
+#: field:ir.actions.report.promptwizard,param_035_2m_value:0
+#: field:ir.actions.report.promptwizard,param_036_2m_value:0
+#: field:ir.actions.report.promptwizard,param_037_2m_value:0
+#: field:ir.actions.report.promptwizard,param_038_2m_value:0
+#: field:ir.actions.report.promptwizard,param_039_2m_value:0
+#: field:ir.actions.report.promptwizard,param_040_2m_value:0
+#: field:ir.actions.report.promptwizard,param_041_2m_value:0
+#: field:ir.actions.report.promptwizard,param_042_2m_value:0
+#: field:ir.actions.report.promptwizard,param_043_2m_value:0
+#: field:ir.actions.report.promptwizard,param_044_2m_value:0
+#: field:ir.actions.report.promptwizard,param_045_2m_value:0
+#: field:ir.actions.report.promptwizard,param_046_2m_value:0
+#: field:ir.actions.report.promptwizard,param_047_2m_value:0
+#: field:ir.actions.report.promptwizard,param_048_2m_value:0
+#: field:ir.actions.report.promptwizard,param_049_2m_value:0
+msgid "Multi Select"
+msgstr "Mehrfachauswahl"
+
+#. module: pentaho_reports
+#: code:addons/pentaho_reports/wizard/report_prompt.py:210
+#, python-format
+msgid "Multi select default values not supported."
+msgstr "Mehrfachauswahl als Standard wird nicht unterstützt."
+
+#. module: pentaho_reports
+#: field:ir.actions.report.promptwizard,param_000_number_value:0
+#: field:ir.actions.report.promptwizard,param_001_number_value:0
+#: field:ir.actions.report.promptwizard,param_002_number_value:0
+#: field:ir.actions.report.promptwizard,param_003_number_value:0
+#: field:ir.actions.report.promptwizard,param_004_number_value:0
+#: field:ir.actions.report.promptwizard,param_005_number_value:0
+#: field:ir.actions.report.promptwizard,param_006_number_value:0
+#: field:ir.actions.report.promptwizard,param_007_number_value:0
+#: field:ir.actions.report.promptwizard,param_008_number_value:0
+#: field:ir.actions.report.promptwizard,param_009_number_value:0
+#: field:ir.actions.report.promptwizard,param_010_number_value:0
+#: field:ir.actions.report.promptwizard,param_011_number_value:0
+#: field:ir.actions.report.promptwizard,param_012_number_value:0
+#: field:ir.actions.report.promptwizard,param_013_number_value:0
+#: field:ir.actions.report.promptwizard,param_014_number_value:0
+#: field:ir.actions.report.promptwizard,param_015_number_value:0
+#: field:ir.actions.report.promptwizard,param_016_number_value:0
+#: field:ir.actions.report.promptwizard,param_017_number_value:0
+#: field:ir.actions.report.promptwizard,param_018_number_value:0
+#: field:ir.actions.report.promptwizard,param_019_number_value:0
+#: field:ir.actions.report.promptwizard,param_020_number_value:0
+#: field:ir.actions.report.promptwizard,param_021_number_value:0
+#: field:ir.actions.report.promptwizard,param_022_number_value:0
+#: field:ir.actions.report.promptwizard,param_023_number_value:0
+#: field:ir.actions.report.promptwizard,param_024_number_value:0
+#: field:ir.actions.report.promptwizard,param_025_number_value:0
+#: field:ir.actions.report.promptwizard,param_026_number_value:0
+#: field:ir.actions.report.promptwizard,param_027_number_value:0
+#: field:ir.actions.report.promptwizard,param_028_number_value:0
+#: field:ir.actions.report.promptwizard,param_029_number_value:0
+#: field:ir.actions.report.promptwizard,param_030_number_value:0
+#: field:ir.actions.report.promptwizard,param_031_number_value:0
+#: field:ir.actions.report.promptwizard,param_032_number_value:0
+#: field:ir.actions.report.promptwizard,param_033_number_value:0
+#: field:ir.actions.report.promptwizard,param_034_number_value:0
+#: field:ir.actions.report.promptwizard,param_035_number_value:0
+#: field:ir.actions.report.promptwizard,param_036_number_value:0
+#: field:ir.actions.report.promptwizard,param_037_number_value:0
+#: field:ir.actions.report.promptwizard,param_038_number_value:0
+#: field:ir.actions.report.promptwizard,param_039_number_value:0
+#: field:ir.actions.report.promptwizard,param_040_number_value:0
+#: field:ir.actions.report.promptwizard,param_041_number_value:0
+#: field:ir.actions.report.promptwizard,param_042_number_value:0
+#: field:ir.actions.report.promptwizard,param_043_number_value:0
+#: field:ir.actions.report.promptwizard,param_044_number_value:0
+#: field:ir.actions.report.promptwizard,param_045_number_value:0
+#: field:ir.actions.report.promptwizard,param_046_number_value:0
+#: field:ir.actions.report.promptwizard,param_047_number_value:0
+#: field:ir.actions.report.promptwizard,param_048_number_value:0
+#: field:ir.actions.report.promptwizard,param_049_number_value:0
+msgid "Number Value"
+msgstr "Zahlenwert"
+
+#. module: pentaho_reports
+#: field:ir.actions.report.xml,pentaho_report_output_type:0
+msgid "Output format"
+msgstr "Ausgabeformat"
+
+#. module: pentaho_reports
+#: selection:ir.actions.report.xml,pentaho_report_output_type:0
+msgid "PDF"
+msgstr "PDF"
+
+#. module: pentaho_reports
+#: code:addons/pentaho_reports/wizard/report_prompt.py:170
+#, python-format
+msgid "Parameter received with no attributes."
+msgstr "Parameter ohne Attribute erhalten."
+
+#. module: pentaho_reports
+#: view:ir.actions.report.promptwizard:pentaho_reports.wiz_pentaho_report_prompt
+msgid "Pentaho Report Options"
+msgstr "Pentaho Report-Optionen"
+
+#. module: pentaho_reports
+#: view:ir.actions.report.xml:pentaho_reports.act_report_xml_search_view_pent
+msgid "Pentaho Reports"
+msgstr "Pentaho Reports"
+
+#. module: pentaho_reports
+#: code:addons/pentaho_reports/core.py:239
+#, python-format
+msgid "Pentaho returned no data for the report '%s'. Check report definition and parameters."
+msgstr "Pentaho hat keine Daten für den Bericht ‚%s‘ zurückgegeben. Report-Definition und Parameter sind zu überprüfen."
+
+#. module: pentaho_reports
+#: selection:ir.actions.report.promptwizard,output_type:0
+msgid "Plain Text (txt)"
+msgstr "Klartext (txt)"
+
+#. module: pentaho_reports
+#: selection:ir.actions.report.xml,pentaho_report_output_type:0
+msgid "Plain text"
+msgstr "Klartext"
+
+#. module: pentaho_reports
+#: selection:ir.actions.report.promptwizard,output_type:0
+msgid "Portable Document (pdf)"
+msgstr "Portable Document (pdf)"
+
+#. module: pentaho_reports
+#: selection:ir.actions.report.xml,pentaho_report_output_type:0
+msgid "RTF"
+msgstr "RTF"
+
+#. module: pentaho_reports
+#: code:addons/pentaho_reports/ui.py:328
+#, python-format
+msgid "Report '%s' is not a Pentaho report."
+msgstr "Bericht ‚%s‘ ist kein Pentaho-Bericht."
+
+#. module: pentaho_reports
+#: code:addons/pentaho_reports/ui.py:331
+#, python-format
+msgid "Report '%s' must be passed active ids or parameter values."
+msgstr "Bericht '%s' müssen aktive ids oder Parameterwerte übergeben werden."
+
+#. module: pentaho_reports
+#: code:addons/pentaho_reports/ui.py:293
+#, python-format
+msgid "Report '%s', parameter '%s'. Local type '%s' not supported."
+msgstr "Report '%s', Parameter '%s'. Lokaler Typ '%s' wird nicht unterstützt."
+
+#. module: pentaho_reports
+#: code:addons/pentaho_reports/ui.py:302
+#, python-format
+msgid ""
+"Report '%s', parameter '%s'. Passed value '%s' failed data conversion to type '%s'.\n"
+"%s"
+msgstr ""
+"Bericht '%s', '%s'-Parameter. Übergebenen Wert '%s' verursacht fehlgeschlagene Datenkonvertierung \"%s\".\n"
+"%s"
+
+#. module: pentaho_reports
+#: code:addons/pentaho_reports/ui.py:295
+#, python-format
+msgid "Report '%s', parameter '%s'. Passed value is '%s' but must be one of '%s'."
+msgstr "Bericht '%s', '%s'-Parameter. Übergebenen Wert '%s' muss aber einer von '%s' sein."
+
+#. module: pentaho_reports
+#: code:addons/pentaho_reports/ui.py:286
+#, python-format
+msgid "Report '%s', parameter '%s'. Type '%s' not supported."
+msgstr "Report '%s', Parameter '%s'. Lokaler Typ '%s' wird nicht unterstützt."
+
+#. module: pentaho_reports
+#: code:addons/pentaho_reports/ui.py:279
+#, python-format
+msgid "Report '%s'. No value passed for mandatory report parameter '%s'."
+msgstr "Bericht '%s'. Kein Wert für obligatorische Berichtsparameter '%s' übergeben."
+
+#. module: pentaho_reports
+#: code:addons/pentaho_reports/ui.py:309
+#, python-format
+msgid "Report '%s'. Parameter values not required by report: %s"
+msgstr "Bericht '%s'.  Parameterwerte werden vom Bericht: %s nicht benötigt."
+
+#. module: pentaho_reports
+#: field:ir.actions.report.promptwizard,report_action_id:0
+msgid "Report Name"
+msgstr "Berichtsname"
+
+#. module: pentaho_reports
+#: field:ir.actions.report.promptwizard,output_type:0
+msgid "Report format"
+msgstr "Berichtsformat"
+
+#. module: pentaho_reports
+#: code:addons/pentaho_reports/core.py:192
+#, python-format
+msgid "Report service name '%s' is not a Pentaho report."
+msgstr "Bericht-Dienstname ‚%s‘ ist kein Pentaho-Bericht."
+
+#. module: pentaho_reports
+#: selection:ir.actions.report.promptwizard,output_type:0
+msgid "Rich Text (rtf)"
+msgstr "Rich Text (rtf)"
+
+#. module: pentaho_reports
+#: field:ir.actions.report.multivalues.promptwizard,selected:0
+msgid "Selected"
+msgstr "Ausgewählt"
+
+#. module: pentaho_reports
+#: field:ir.actions.report.multivalues.promptwizard,sel_int:0
+msgid "Selection Integer"
+msgstr "Auswahl Ganzzahl"
+
+#. module: pentaho_reports
+#: field:ir.actions.report.multivalues.promptwizard,sel_num:0
+msgid "Selection Number"
+msgstr "Auswahl Kommazahl"
+
+#. module: pentaho_reports
+#: field:ir.actions.report.multivalues.promptwizard,sel_str:0
+msgid "Selection String"
+msgstr "Auswahl-String"
+
+#. module: pentaho_reports
+#: field:ir.actions.report.multivalues.promptwizard,name:0
+msgid "Selection Value"
+msgstr "Selektionswert"
+
+#. module: pentaho_reports
+#: view:ir.actions.report.promptwizard:pentaho_reports.wiz_pentaho_report_prompt
+msgid "Selections"
+msgstr "Auswahlen"
+
+#. module: pentaho_reports
+#: field:ir.actions.report.promptwizard,param_000_string_value:0
+#: field:ir.actions.report.promptwizard,param_001_string_value:0
+#: field:ir.actions.report.promptwizard,param_002_string_value:0
+#: field:ir.actions.report.promptwizard,param_003_string_value:0
+#: field:ir.actions.report.promptwizard,param_004_string_value:0
+#: field:ir.actions.report.promptwizard,param_005_string_value:0
+#: field:ir.actions.report.promptwizard,param_006_string_value:0
+#: field:ir.actions.report.promptwizard,param_007_string_value:0
+#: field:ir.actions.report.promptwizard,param_008_string_value:0
+#: field:ir.actions.report.promptwizard,param_009_string_value:0
+#: field:ir.actions.report.promptwizard,param_010_string_value:0
+#: field:ir.actions.report.promptwizard,param_011_string_value:0
+#: field:ir.actions.report.promptwizard,param_012_string_value:0
+#: field:ir.actions.report.promptwizard,param_013_string_value:0
+#: field:ir.actions.report.promptwizard,param_014_string_value:0
+#: field:ir.actions.report.promptwizard,param_015_string_value:0
+#: field:ir.actions.report.promptwizard,param_016_string_value:0
+#: field:ir.actions.report.promptwizard,param_017_string_value:0
+#: field:ir.actions.report.promptwizard,param_018_string_value:0
+#: field:ir.actions.report.promptwizard,param_019_string_value:0
+#: field:ir.actions.report.promptwizard,param_020_string_value:0
+#: field:ir.actions.report.promptwizard,param_021_string_value:0
+#: field:ir.actions.report.promptwizard,param_022_string_value:0
+#: field:ir.actions.report.promptwizard,param_023_string_value:0
+#: field:ir.actions.report.promptwizard,param_024_string_value:0
+#: field:ir.actions.report.promptwizard,param_025_string_value:0
+#: field:ir.actions.report.promptwizard,param_026_string_value:0
+#: field:ir.actions.report.promptwizard,param_027_string_value:0
+#: field:ir.actions.report.promptwizard,param_028_string_value:0
+#: field:ir.actions.report.promptwizard,param_029_string_value:0
+#: field:ir.actions.report.promptwizard,param_030_string_value:0
+#: field:ir.actions.report.promptwizard,param_031_string_value:0
+#: field:ir.actions.report.promptwizard,param_032_string_value:0
+#: field:ir.actions.report.promptwizard,param_033_string_value:0
+#: field:ir.actions.report.promptwizard,param_034_string_value:0
+#: field:ir.actions.report.promptwizard,param_035_string_value:0
+#: field:ir.actions.report.promptwizard,param_036_string_value:0
+#: field:ir.actions.report.promptwizard,param_037_string_value:0
+#: field:ir.actions.report.promptwizard,param_038_string_value:0
+#: field:ir.actions.report.promptwizard,param_039_string_value:0
+#: field:ir.actions.report.promptwizard,param_040_string_value:0
+#: field:ir.actions.report.promptwizard,param_041_string_value:0
+#: field:ir.actions.report.promptwizard,param_042_string_value:0
+#: field:ir.actions.report.promptwizard,param_043_string_value:0
+#: field:ir.actions.report.promptwizard,param_044_string_value:0
+#: field:ir.actions.report.promptwizard,param_045_string_value:0
+#: field:ir.actions.report.promptwizard,param_046_string_value:0
+#: field:ir.actions.report.promptwizard,param_047_string_value:0
+#: field:ir.actions.report.promptwizard,param_048_string_value:0
+#: field:ir.actions.report.promptwizard,param_049_string_value:0
+msgid "String Value"
+msgstr "Stringwert"
+
+#. module: pentaho_reports
+#: field:ir.actions.report.promptwizard,param_000_time_value:0
+#: field:ir.actions.report.promptwizard,param_001_time_value:0
+#: field:ir.actions.report.promptwizard,param_002_time_value:0
+#: field:ir.actions.report.promptwizard,param_003_time_value:0
+#: field:ir.actions.report.promptwizard,param_004_time_value:0
+#: field:ir.actions.report.promptwizard,param_005_time_value:0
+#: field:ir.actions.report.promptwizard,param_006_time_value:0
+#: field:ir.actions.report.promptwizard,param_007_time_value:0
+#: field:ir.actions.report.promptwizard,param_008_time_value:0
+#: field:ir.actions.report.promptwizard,param_009_time_value:0
+#: field:ir.actions.report.promptwizard,param_010_time_value:0
+#: field:ir.actions.report.promptwizard,param_011_time_value:0
+#: field:ir.actions.report.promptwizard,param_012_time_value:0
+#: field:ir.actions.report.promptwizard,param_013_time_value:0
+#: field:ir.actions.report.promptwizard,param_014_time_value:0
+#: field:ir.actions.report.promptwizard,param_015_time_value:0
+#: field:ir.actions.report.promptwizard,param_016_time_value:0
+#: field:ir.actions.report.promptwizard,param_017_time_value:0
+#: field:ir.actions.report.promptwizard,param_018_time_value:0
+#: field:ir.actions.report.promptwizard,param_019_time_value:0
+#: field:ir.actions.report.promptwizard,param_020_time_value:0
+#: field:ir.actions.report.promptwizard,param_021_time_value:0
+#: field:ir.actions.report.promptwizard,param_022_time_value:0
+#: field:ir.actions.report.promptwizard,param_023_time_value:0
+#: field:ir.actions.report.promptwizard,param_024_time_value:0
+#: field:ir.actions.report.promptwizard,param_025_time_value:0
+#: field:ir.actions.report.promptwizard,param_026_time_value:0
+#: field:ir.actions.report.promptwizard,param_027_time_value:0
+#: field:ir.actions.report.promptwizard,param_028_time_value:0
+#: field:ir.actions.report.promptwizard,param_029_time_value:0
+#: field:ir.actions.report.promptwizard,param_030_time_value:0
+#: field:ir.actions.report.promptwizard,param_031_time_value:0
+#: field:ir.actions.report.promptwizard,param_032_time_value:0
+#: field:ir.actions.report.promptwizard,param_033_time_value:0
+#: field:ir.actions.report.promptwizard,param_034_time_value:0
+#: field:ir.actions.report.promptwizard,param_035_time_value:0
+#: field:ir.actions.report.promptwizard,param_036_time_value:0
+#: field:ir.actions.report.promptwizard,param_037_time_value:0
+#: field:ir.actions.report.promptwizard,param_038_time_value:0
+#: field:ir.actions.report.promptwizard,param_039_time_value:0
+#: field:ir.actions.report.promptwizard,param_040_time_value:0
+#: field:ir.actions.report.promptwizard,param_041_time_value:0
+#: field:ir.actions.report.promptwizard,param_042_time_value:0
+#: field:ir.actions.report.promptwizard,param_043_time_value:0
+#: field:ir.actions.report.promptwizard,param_044_time_value:0
+#: field:ir.actions.report.promptwizard,param_045_time_value:0
+#: field:ir.actions.report.promptwizard,param_046_time_value:0
+#: field:ir.actions.report.promptwizard,param_047_time_value:0
+#: field:ir.actions.report.promptwizard,param_048_time_value:0
+#: field:ir.actions.report.promptwizard,param_049_time_value:0
+msgid "Time Value"
+msgstr "Zeitwert"
+
+#. module: pentaho_reports
+#: code:addons/pentaho_reports/wizard/report_prompt.py:175
+#, python-format
+msgid "Too many report parameters (%d)."
+msgstr "Zu viele Berichtsparameter (%d)."
+
+#. module: pentaho_reports
+#: code:addons/pentaho_reports/wizard/report_prompt.py:113
+#, python-format
+msgid "Unhandled parameter type (%s)."
+msgstr "Unbehandelte Parametertyp (%s)."
+
+#. module: pentaho_reports
+#: code:addons/pentaho_reports/wizard/report_prompt.py:116
+#, python-format
+msgid "Unnamed parameter encountered."
+msgstr "Unbenannte Parameter festgestellt."
+
+#. module: pentaho_reports
+#: model:ir.model,name:pentaho_reports.model_res_users
+msgid "Users"
+msgstr "Benutzer"
+
+#. module: pentaho_reports
+#: view:ir.actions.report.promptwizard:pentaho_reports.wiz_pentaho_report_prompt
+msgid "_Cancel"
+msgstr "_Cancel"
+
+#. module: pentaho_reports
+#: view:ir.actions.report.promptwizard:pentaho_reports.wiz_pentaho_report_prompt
+msgid "_Print"
+msgstr "_Print"
+
+#. module: pentaho_reports
+#: view:ir.actions.report.promptwizard:pentaho_reports.wiz_pentaho_report_prompt
+msgid "or"
+msgstr "or"
+
+#. module: pentaho_reports
+#: field:ir.actions.report.promptwizard,parameters_dictionary:0
+msgid "parameter dictionary"
+msgstr "parameter dictionary"
+
+#. module: pentaho_reports
+#: view:ir.actions.report.xml:pentaho_reports.act_report_xml_view_pent
+msgid "{'invisible': [('report_type', '=', 'pentaho')]}"
+msgstr "{'invisible': [('report_type', '=', 'pentaho')]}"

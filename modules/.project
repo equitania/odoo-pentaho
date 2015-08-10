@@ -3,7 +3,7 @@
 	<name>odoo-pentaho</name>
 	<comment></comment>
 	<projects>
-		<project>myodoo-server</project>
+		<project>odoo-pentaho</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

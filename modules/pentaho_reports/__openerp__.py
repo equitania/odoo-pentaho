@@ -98,6 +98,14 @@ The address of the Pentaho server which is used to render the report is defined 
 For object based data sources, the Pentaho server will use XML-RPC to connect to the current database using the
 interface and port as defined in the OpenERP config file, and the reporting user's credentials.
 
+If you are using the module auth_crypt the password will be store as md5 hash and can't be decrypt.
+ 
+* pentaho.report.login
+* pentaho.report.password
+
+In this case we (equitania) add a separate user for reporting.
+This user should have all rights to print.
+
 If not defined in the config file, the interface and port can be defined with the parameters:
 
 * pentaho.openerp.xml.interface

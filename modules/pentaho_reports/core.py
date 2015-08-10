@@ -133,18 +133,22 @@ def get_proxy_args(instance, cr, uid, prpt_content, context_vars={}):
     current_user = pool.get('res.users').browse(cr, uid, uid)
     config_obj = pool.get('ir.config_parameter')
 
-    proxy_url = config_obj.get_param(cr, uid, 'pentaho.server.url', default='http://localhost:8080/pentaho-reports-for-openerp')
+    proxy_url = config_obj.get_param(cr, uid, 'pentaho.server.url', default='http://localhost:8090/pentaho-reports-for-openerp')
 
     xml_interface = config_obj.get_param(cr, uid, 'pentaho.openerp.xml.interface', default='').strip() or config['xmlrpc_interface'] or 'localhost'
     xml_port = config_obj.get_param(cr, uid, 'pentaho.openerp.xml.port', default='').strip() or str(config['xmlrpc_port'])
+
+    reportconfig_login = config_obj.get_param(cr, uid, 'pentaho.report.login')
+    reportconfig_password = config_obj.get_param(cr, uid, 'pentaho.report.password')
+
 
     proxy_argument = {
                       'prpt_file_content': xmlrpclib.Binary(prpt_content),
                       'connection_settings': {'openerp': {'host': xml_interface,
                                                           'port': xml_port,
                                                           'db': cr.dbname,
-                                                          'login': current_user.login,
-                                                          'password': '%s%s' % (SKIP_DATE, current_user.password),
+                                                          'login': reportconfig_login, #current_user.login, changes cause md5 auth_crypt
+                                                          'password': reportconfig_password, #'%s%s' % (SKIP_DATE, current_user.password),
                                                           }},
                       'report_parameters': dict([(param_name, param_formula(instance, cr, uid, context_vars)) for (param_name, param_formula) in RESERVED_PARAMS.iteritems() if param_formula(instance, cr, uid, context_vars)]),
                       }
