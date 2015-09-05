@@ -26,16 +26,6 @@
 			<field name="value">5432</field>
 		</record>
 
-		<record id="pentaho_report_login" model="ir.config_parameter">
-			<field name="key">pentaho.report.login</field>
-			<field name="value">admin</field>
-		</record>
-
-		<record id="pentaho_report_password" model="ir.config_parameter">
-			<field name="key">pentaho.report.password</field>
-			<field name="value">odoo2015</field>
-		</record>
-
 		<record id="pentaho_postgres_login" model="ir.config_parameter">
 			<field name="key">pentaho.postgres.login</field>
 			<field name="value">odoo</field>
