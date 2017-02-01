@@ -1,5 +1,9 @@
 ## Modul reports
 
+### 01.02.2017
+#### IMP
+- SaleOrder-Report: Erweiterung um neue Funktionen und Logik, die Joe hier definiert hat (https://equitania.atlassian.net/browse/ODOO-711)
+
 ### 31.01.2017
 #### IMP
 Lieferschein-Report: Erweitern um mehrere Felder und Bänder.
