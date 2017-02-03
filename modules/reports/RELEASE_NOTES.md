@@ -1,5 +1,18 @@
 ## Modul reports
 
+### 03.02.2017
+#### IMP
+SaleOrder-Report: Diverse Anpassungen:
+- Fax beim Ansprechpartner hinzugefügt
+- "Angebot gültig bis" hinzugefügt
+- Anschrift von Rechnungsadresse auf Kunden-Kontakt umgestellt
+- Schriftlaufweiten und Höhen angepasst
+- Übertrag & Zwischensumme angepasst
+- Währungszeichen hinzugefügt
+- Rechnungsadresse und Lieferadresse sauber eingebaut, inkl. Abfrage für Abweichung vom Kontakt.
+- Sämtliche Block-Objekte und Texte so umgebaut das sie nachrücken wenn ein darüber-liegendes Objekt fehlt oder "null" ist.
+
+
 ### 01.02.2017
 #### IMP
 - SaleOrder-Report: Erweiterung um neue Funktionen und Logik, die Joe hier definiert hat (https://equitania.atlassian.net/browse/ODOO-711)
