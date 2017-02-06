@@ -1,5 +1,17 @@
 ## Modul reports
 
+### 06.02.2017
+#### IMP
+SaleOrder-Report: Diverse Anpassungen:
+- Ausblenden des Übertrags auf der 1. Seite 
+- Übertrag nun korrekt mit Währungszeichen formatiert
+- Kopf- und Fußtexte PLAINTEXT nun implementiert
+- Rabatt-Spalte funktioniert nun korrekt (sobald min. 1 Artikel einen Rabatt-Wert enthält)
+- Übersetzung für die Units (Stück/Stunde usw)
+- Zeilenhöhe für mehrzeilige Texte nun korrekt
+- optischer Helfer für die Anschrift nun ausgeblendet
+
+
 ### 03.02.2017
 #### IMP
 SaleOrder-Report: Diverse Anpassungen:
