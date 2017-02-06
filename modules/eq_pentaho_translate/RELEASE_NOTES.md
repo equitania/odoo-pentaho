@@ -1,5 +1,10 @@
-## Modul eq_product_view_template
+## Modul eq_pentaho_translate
 
+#### 06.02.2017
+### Version 1.0.1
+#### IMP
+- Erweiterung der Tabelle sale.order um neue Felder für Plaintext
+- Erweiterung der Tabelle product.uom um neue Felder, damit wir Mengeneinheiten korrekt ausgeben können
 
 #### 09.12.2016
 ### Version 1.0.0

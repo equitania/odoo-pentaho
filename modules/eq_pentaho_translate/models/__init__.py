@@ -21,3 +21,6 @@
 
 import eq_log
 import eq_product_template
+import eq_sale_order
+import eq_product_uom
+import html2text
