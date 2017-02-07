@@ -1,6 +1,13 @@
 ## Modul reports
 
 ### 07.02.2017
+#### IMP
+Lieferschein-Report: Neuer verbesserter Stand
+- Felder hinzugefügt
+- Optik und Abstände verbessert
+- If-Abfragen für diverse Felder gesetzt.
+
+### 07.02.2017
 #### CHG
 SaleOrder-Report: Verlinkungen der Feldnamen einheitlicher umgesetzt.
 
