@@ -1,5 +1,13 @@
 ## Modul reports
 
+### 08.02.2017
+#### ADD/CHG
+Neu: Packliste; Änderungen: Lieferschein
+- Lieferschein wurde nun getrennt und es gibt zusätzlich auch die Packliste
+- Verschiedene Elemente aus der Packliste wurden entfernt, ebenso aus dem Lieferschein welche nicht benötigt werden.
+
+
+
 ### 07.02.2017
 #### IMP
 Lieferschein-Report: Neuer verbesserter Stand
