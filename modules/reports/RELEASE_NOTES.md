@@ -1,5 +1,10 @@
 ## Modul reports
 
+### 09.02.2017
+#### ADD
+Neu: Fertigungsauftrag
+- Grundelemente und Positionen erstellt (Datenbankverbindung konnte aber noch nicht aufgebaut werden zu dem MODEL)
+
 ### 08.02.2017
 #### ADD/CHG
 Neu: Packliste; Änderungen: Lieferschein
