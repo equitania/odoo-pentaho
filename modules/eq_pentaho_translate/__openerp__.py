@@ -20,10 +20,10 @@
 ##############################################################################
 
 {
-    'name': "eq_pentaho_translate_testground",
+    'name': "eq_pentaho_translate",
 
     'summary': """
-        eq_pantaho_translate""",
+        eq_pentaho_translate""",
 
     'description': """
         
@@ -36,7 +36,7 @@
     # Check https://github.com/odoo/odoo/blob/master/openerp/addons/base/module/module_data.xml
     # for the full list
     'category': 'Uncategorized',
-    'version': '1.0.1',
+    'version': '1.0.2',
     'license': 'AGPL-3',
     # any module necessary for this one to work correctly
     'depends': ['base','product', 'sale'],
