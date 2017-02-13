@@ -1,5 +1,9 @@
 ## Modul reports
 
+### 13.02.2017
+#### CHG
+Rechnungs-Report und Fertigungs-Report überarbeitet (Fertigungsreport nun großteils aufgebaut)
+
 ### 10.02.2017
 #### ADD/CHG
 Neu: Rechnungs-Report (erste Version); Änderung: kleine Anpassungen an Lieferschein und Pickliste
