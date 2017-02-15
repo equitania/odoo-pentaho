@@ -1,5 +1,9 @@
 ## Modul reports
 
+### 15.02.2017
+#### IMP
+Rechnungs-Report: Nun auch mit Detailband-Informationen
+
 ### 13.02.2017
 #### CHG
 Rechnungs-Report und Fertigungs-Report überarbeitet (Fertigungsreport nun großteils aufgebaut)
