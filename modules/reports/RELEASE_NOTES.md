@@ -1,5 +1,16 @@
 ## Modul reports
 
+
+### 16.02.2017
+#### IMP
+Rechnungs-Report: Mehrere Anpassungen...
+- Rabatt-Spalte funktioniert jetzt nun korrekt
+- Zeichnungsnummer hinzugefügt
+- Kd Ust-ID-Nr (wenn EU-Firma)
+- Sämtliche Titel berücksichtigt (proforma, Gutschrift, Liefer-Rechnung usw)
+- Zwischensumme & Übertrag nun korrekt
+- Weitere Anpassungen an Abständen im Detail-Band
+
 ### 15.02.2017
 #### IMP
 Rechnungs-Report: Nun auch mit Detailband-Informationen
