@@ -1,5 +1,10 @@
 ## Modul reports
 
+### 17.02.2017
+#### CHG
+Rechnungs-Report: Enthält nun auch Plain Fuß & Kopftext
+Somit ist der Rechnungsreport bereit zum testen
+
 
 ### 16.02.2017
 #### IMP
