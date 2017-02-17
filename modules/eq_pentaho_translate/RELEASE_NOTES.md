@@ -1,5 +1,12 @@
 ## Modul eq_pentaho_translate
 
+
+#### 06.02.2017
+### Version 1.0.3
+#### CHG
+- Anpassungen für Übersetzungsfelder in Produkten
+- Übersetzungsfelder für Kopf- und Fußtexte für Bestellung, Rechnung und Lieferschein
+
 #### 06.02.2017
 ### Version 1.0.1
 #### IMP

@@ -22,5 +22,9 @@
 import eq_log
 import eq_product_template
 import eq_sale_order
+import eq_purchase_order
+import eq_stock_picking
+import eq_account_invoice
 import eq_product_uom
 import html2text
+
