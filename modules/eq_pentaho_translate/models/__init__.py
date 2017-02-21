@@ -26,5 +26,6 @@ import eq_purchase_order
 import eq_stock_picking
 import eq_account_invoice
 import eq_product_uom
+import eq_account_payment_term
 import html2text
 
