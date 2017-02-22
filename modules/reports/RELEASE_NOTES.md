@@ -1,5 +1,16 @@
 ## Modul reports
 
+### 22.02.2017
+#### ADD/IMP
+Neue Reports und Erweiterungen:
+- Neu:Einkauf
+- Neu:Einkaufs-Anfrage
+- Rechnungen:Pagebreak, Währungen, DE-Texte, Adressunterschied Kunde/Company
+- Verkauf:Pagebreak, Währungen, DE-Texte
+- Lieferschein: Falsche Felder löschen, Abstände korrigieren, Anschrift verbessern
+- Pickliste: Diverse Verbesserungen
+
+
 ### 17.02.2017
 #### CHG
 Rechnungs-Report: Nun auch deutsche Produkt-Mengeneinheit
