@@ -1,6 +1,10 @@
 ## Modul reports
 
 ### 22.02.2017
+#### CHG
+Filter innerhalb der Reports gelöscht
+
+### 22.02.2017
 #### ADD/IMP
 Neue Reports und Erweiterungen:
 - Neu:Einkauf
