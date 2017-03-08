@@ -334,7 +334,7 @@ class _html2text(HTMLParser.HTMLParser):
             unifiable['nbsp'] = '&nbsp_place_holder;'
 
     def feed(self, data):
-        data = data.replace("</' + 'script>", "</ignore>")
+        data = (data or '').replace("</' + 'script>", "</ignore>")
         HTMLParser.HTMLParser.feed(self, data)
 
     def outtextf(self, s):
@@ -348,6 +348,8 @@ class _html2text(HTMLParser.HTMLParser):
         self.o('', 0, 'end')
 
         self.outtext = self.outtext.join(self.outtextlist)
+        if not self.outtext:
+            self.outtext = ''
 
         if options.google_doc:
             self.outtext = self.outtext.replace('&nbsp_place_holder;', ' ');

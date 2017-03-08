@@ -54,5 +54,12 @@ class eq_purchase_order(models.Model):
         :return: Plaintext
         """
         for rec in self:
-            rec.eq_head_text_plaintext = self._remove_wrong_chars(html2text.html2text(rec.eq_head_text))
-            rec.eq_notes_plaintext = self._remove_wrong_chars(html2text.html2text(rec.notes))
+            if rec.eq_head_text:
+                rec.eq_head_text_plaintext = self._remove_wrong_chars(html2text.html2text(rec.eq_head_text))
+            else:
+                rec.eq_head_text_plaintext = ''
+
+            if rec.notes:
+                rec.eq_notes_plaintext = self._remove_wrong_chars(html2text.html2text(rec.notes))
+            else:
+                rec.eq_notes_plaintext = ''

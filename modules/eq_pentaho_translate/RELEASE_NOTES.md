@@ -1,5 +1,12 @@
 ## Modul eq_pentaho_translate
 
+
+#### 08.03.2017
+### Version 1.0.5
+#### CHG
+- Anpassungen in html2text und für Angebote/Bestellungen für leere Texte
+
+
 #### 21.02.2017
 ### Version 1.0.4
 #### CHG

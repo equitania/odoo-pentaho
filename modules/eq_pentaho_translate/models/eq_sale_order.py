@@ -53,5 +53,11 @@ class eq_sale_order(models.Model):
         :return: Plaintext
         """
         for rec in self:
-            rec.eq_head_text_plaintext = self._remove_wrong_chars(html2text.html2text(rec.eq_head_text))
-            rec.eq_note_plaintext = self._remove_wrong_chars(html2text.html2text(rec.note))
+            if rec.eq_head_text:
+                rec.eq_head_text_plaintext = self._remove_wrong_chars(html2text.html2text(rec.eq_head_text))
+            else:
+                rec.eq_head_text_plaintext = ''
+            if rec.note:
+                rec.eq_note_plaintext = self._remove_wrong_chars(html2text.html2text(rec.note))
+            else:
+                rec.eq_note_plaintext = ''
