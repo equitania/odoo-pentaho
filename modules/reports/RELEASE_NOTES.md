@@ -1,5 +1,11 @@
 ## Modul reports
 
+
+### 30.03.2017
+#### FIX
+Rechnungsreport: Fix der Steuersumme
+
+
 ### 22.02.2017
 #### CHG
 Filter innerhalb der Reports gelöscht
