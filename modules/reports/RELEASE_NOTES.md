@@ -1,5 +1,8 @@
 ## Modul reports
 
+### 04.04.2017
+#### ADD
+Leistungsbeschreibungsreport benefits_description.prpt hinzugefügt
 
 ### 30.03.2017
 #### FIX
