@@ -1,6 +1,10 @@
 ## Modul reports
 
 ### 04.04.2017
+#### FIX
+Rechnungs-report: Lieferanschrift hat nun Überprüfung für "is company"
+
+### 04.04.2017
 #### ADD
 Leistungsbeschreibungsreport benefits_description.prpt hinzugefügt
 
