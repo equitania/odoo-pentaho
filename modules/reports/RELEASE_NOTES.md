@@ -1,5 +1,12 @@
 ## Modul reports
 
+### 06.04.2017
+#### FIX
+3 Reports angepasst
+Angebot: Produkt Code und Name hinzuhefügt
+Lieferschein: Description_sale_de hinzugefügt
+Rechnung: Leistungstag und Lieferscheinnummer hinzugefügt
+
 ### 04.04.2017
 #### FIX
 Rechnungs-report: Lieferanschrift hat nun Überprüfung für "is company"
