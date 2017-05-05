@@ -28,4 +28,5 @@ import eq_account_invoice
 import eq_product_uom
 import eq_account_payment_term
 import html2text
+import eq_res_country
 

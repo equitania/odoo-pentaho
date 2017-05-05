@@ -1,5 +1,9 @@
 ## Modul eq_pentaho_translate
 
+#### 05.05.2017
+### Version 1.0.6
+#### ADD
+- Country der Adressen um deutsch und englisch Text ergänzt
 
 #### 08.03.2017
 ### Version 1.0.5
