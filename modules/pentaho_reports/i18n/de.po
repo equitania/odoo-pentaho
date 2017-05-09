@@ -749,3 +749,8 @@ msgstr "parameter dictionary"
 #: view:ir.actions.report.xml:pentaho_reports.act_report_xml_view_pent
 msgid "{'invisible': [('report_type', '=', 'pentaho')]}"
 msgstr "{'invisible': [('report_type', '=', 'pentaho')]}"
+
+#. module: pentaho_reports
+#: view:mail.compose.message:pentaho_reports.eq_pentahoemail_compose_message_wizard_inherit_form
+msgid "Change Template"
+msgstr "Template wechseln"

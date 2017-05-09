@@ -181,15 +181,16 @@ where we will announce when and where this is available. In the meantime, if you
 that you would consider worth sharing, please email them through with some description or details.
 
     """,
-    "version": "0.3",
+    "version": "0.4",
     "author": "WillowIT Pty Ltd",
     "website": "http://www.willowit.com.au/",
-    "depends": ["base", "mail"],
+    "depends": ["base", "mail","email_template"],
     "category": "Reporting subsystems",
     "data": [
              "report_xml_view.xml",
              'wizard/report_prompt.xml',
              'data/config_data.xml',
+             'eq_mail_compose_message_view.xml',
              ],
     "installable": True,
     "application": True,

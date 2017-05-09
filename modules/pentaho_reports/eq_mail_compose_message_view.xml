@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <record model="ir.ui.view" id="eq_pentahoemail_compose_message_wizard_inherit_form">
+            <field name="name">mail.compose.message.form</field>
+            <field name="model">mail.compose.message</field>
+            <field name="inherit_id" ref="email_template.email_compose_message_wizard_inherit_form"/>
+            <field name="arch" type="xml">
+                <field name="template_id" position="replace">
+                    <field name="template_id" nolabel="1" class='oe_inline'
+                                options="{'no_create': True}"
+                                domain="[('model_id.model','=',model)]"
+                                context="{'default_model': model, 'default_body_html': body, 'default_subject': subject}"/>
+                </field>
+                <field name="template_id" position="after">
+                    <button name="change_template" string="Change Template" type="object"  class="oe_highlight"  />
+                </field>
+
+
+            </field>
+        </record>
+
+    </data>
+</openerp>
