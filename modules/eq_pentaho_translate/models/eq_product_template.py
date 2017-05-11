@@ -38,19 +38,19 @@ class eq_product_template(models.Model):
     _inherit = "product.template"
 
     # Alle DE Felder, die wir im Pentaho verwenden werden
-    eq_name_de = fields.Char(compute = '_set_all_fields_de')
-    eq_description_purchase_de = fields.Char(compute = '_set_all_fields_de')
-    eq_description_sale_de = fields.Char(compute = '_set_all_fields_de')
-    eq_description_de = fields.Char(compute = '_set_all_fields_de')
+    eq_name_de = fields.Char(compute = '_set_all_fields_product_de')
+    eq_description_purchase_de = fields.Char(compute = '_set_all_fields_product_de')
+    eq_description_sale_de = fields.Char(compute = '_set_all_fields_product_de')
+    eq_description_de = fields.Char(compute = '_set_all_fields_product_de')
 
     # Alle EN Felder, die wir im Pentaho verwenden werden
-    eq_name_en = fields.Char(compute = '_set_all_fields_en')
-    eq_description_purchase_en = fields.Char(compute = '_set_all_fields_en')
-    eq_description_sale_en = fields.Char(compute = '_set_all_fields_en')
-    eq_description_en = fields.Char(compute = '_set_all_fields_en')
+    eq_name_en = fields.Char(compute = '_set_all_fields_product_en')
+    eq_description_purchase_en = fields.Char(compute = '_set_all_fields_product_en')
+    eq_description_sale_en = fields.Char(compute = '_set_all_fields_product_en')
+    eq_description_en = fields.Char(compute = '_set_all_fields_product_en')
 
 
-    def _set_all_fields_de(self):
+    def _set_all_fields_product_de(self):
         """
         Kontext explizit auf Deutsch setzen, damit wir alle Texte korrekt als DE bekommen
         """
@@ -61,7 +61,7 @@ class eq_product_template(models.Model):
             rec.eq_description_sale_de = localized_rec.description_sale
             rec.eq_description_de = localized_rec.description
 
-    def _set_all_fields_en(self):
+    def _set_all_fields_product_en(self):
         """
         Kontext explizit auf English setzen, damit wir alle Texte korrekt als DE bekommen
         """

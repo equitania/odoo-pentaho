@@ -35,11 +35,11 @@ class eq_account_payment_term(models.Model):
 
     _inherit = "account.payment.term"
 
-    eq_name_de = fields.Char(compute = '_set_all_fields_de')
-    eq_name_en = fields.Char(compute = '_set_all_fields_en')
+    eq_name_de = fields.Char(compute = '_set_all_fields_payment_de')
+    eq_name_en = fields.Char(compute = '_set_all_fields_payment_en')
 
 
-    def _set_all_fields_de(self):
+    def _set_all_fields_payment_de(self):
         """
         Kontext explizit auf Deutsch setzen, damit wir alle Texte korrekt als DE bekommen
         """
@@ -47,7 +47,7 @@ class eq_account_payment_term(models.Model):
             localized_rec = rec.with_context(lang="de_DE")
             rec.eq_name_de = localized_rec.name
 
-    def _set_all_fields_en(self):
+    def _set_all_fields_payment_en(self):
         """
         Kontext explizit auf English setzen, damit wir alle Texte korrekt als DE bekommen
         """

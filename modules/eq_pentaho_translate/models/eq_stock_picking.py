@@ -33,8 +33,8 @@ class eq_stock_picking(models.Model):
     _inherit = "stock.picking"
 
     # HTML Felder als Plaintext
-    eq_header_text_plaintext = fields.Char(compute = '_set_plain_text')
-    eq_footer_plaintext = fields.Char(compute = '_set_plain_text')
+    eq_header_text_plaintext = fields.Char(compute = '_set_plain_text_stock_picking')
+    eq_footer_plaintext = fields.Char(compute = '_set_plain_text_stock_picking')
 
 
     def _remove_wrong_chars(self, input):
@@ -48,7 +48,7 @@ class eq_stock_picking(models.Model):
         input = input.replace("_", "")
         return input
 
-    def _set_plain_text(self):
+    def _set_plain_text_stock_picking(self):
         """
         Wandelt ein HTML-Text in Plaintext um und liefert das Ergebins zurück
         :return: Plaintext

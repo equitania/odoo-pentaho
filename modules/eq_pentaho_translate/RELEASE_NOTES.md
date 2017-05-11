@@ -1,5 +1,10 @@
 ## Modul eq_pentaho_translate
 
+#### 11.05.2017
+### Version 1.0.7
+#### FIX
+- Funktionen haben nun einzigartige Namen (Fix für DE/EN Produktnamen)
+
 #### 05.05.2017
 ### Version 1.0.6
 #### ADD

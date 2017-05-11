@@ -33,8 +33,8 @@ class eq_sale_order(models.Model):
     _inherit = "sale.order"
 
     # HTML Felder als Plaintext
-    eq_head_text_plaintext = fields.Char(compute = '_set_plain_text')
-    eq_note_plaintext = fields.Char(compute = '_set_plain_text')
+    eq_head_text_plaintext = fields.Char(compute = '_set_plain_text_sale_order')
+    eq_note_plaintext = fields.Char(compute = '_set_plain_text_sale_order')
 
     def _remove_wrong_chars(self, input):
         """
@@ -47,7 +47,7 @@ class eq_sale_order(models.Model):
         input = input.replace("_", "")
         return input
 
-    def _set_plain_text(self):
+    def _set_plain_text_sale_order(self):
         """
         Wandelt ein HTML-Text in Plaintext um und liefert das Ergebins zurück
         :return: Plaintext

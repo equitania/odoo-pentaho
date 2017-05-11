@@ -38,11 +38,11 @@ class eq_product_uom(models.Model):
 
     _inherit = "product.uom"
 
-    eq_name_de = fields.Char(compute = '_set_all_fields_de')
-    eq_name_en = fields.Char(compute = '_set_all_fields_en')
+    eq_name_de = fields.Char(compute = '_set_all_fields_uom_de')
+    eq_name_en = fields.Char(compute = '_set_all_fields_uom_en')
 
 
-    def _set_all_fields_de(self):
+    def _set_all_fields_uom_de(self):
         """
         Kontext explizit auf Deutsch setzen, damit wir alle Texte korrekt als DE bekommen
         """
@@ -50,7 +50,7 @@ class eq_product_uom(models.Model):
             localized_rec = rec.with_context(lang = "de_DE")
             rec.eq_name_de = localized_rec.name
 
-    def _set_all_fields_en(self):
+    def _set_all_fields_uom_en(self):
         """
         Kontext explizit auf English setzen, damit wir alle Texte korrekt als DE bekommen
         """
