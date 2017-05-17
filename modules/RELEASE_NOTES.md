@@ -1,3 +1,8 @@
+### 17.05.2017
+### pentaho_reports, 0.5
+#### FIX
+- Model im Report wird dynamisch gezogen, vorher nur sale.order
+
 ### 09.05.2017
 ### pentaho_reports, 0.4
 #### CHG/FIX

@@ -98,7 +98,7 @@ class eq_pentaho_mail_compose_message(osv.TransientModel):
 
         ctx = context
         ctx.update({
-            'default_model': 'sale.order',
+            'default_model': context['active_model'],
             'default_res_id': default_res_id,
             'default_use_template': bool(m_m_compose_obj.template_id.id),
             'default_template_id': m_m_compose_obj.template_id.id,
