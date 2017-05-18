@@ -181,7 +181,7 @@ where we will announce when and where this is available. In the meantime, if you
 that you would consider worth sharing, please email them through with some description or details.
 
     """,
-    "version": "0.6",
+    "version": "0.7",
     "author": "WillowIT Pty Ltd",
     "website": "http://www.willowit.com.au/",
     "depends": ["base", "mail","email_template"],

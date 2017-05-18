@@ -93,8 +93,6 @@ class eq_pentaho_mail_compose_message(osv.TransientModel):
         Danach wird die Anzeige neu gerendert"""
         m_m_compose_obj = self.browse(cr,uid,ids)
 
-        print"context: ",context
-
         if 'active_ids' in context:
             default_res_id = context['active_ids'][0]
         elif 'active_id' in context:
