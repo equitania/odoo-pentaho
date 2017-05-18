@@ -1,3 +1,8 @@
+### 18.05.2017
+### pentaho_reports, 0.6
+#### FIX
+- Email-Versand unter Kunden wieder möglich.
+
 ### 17.05.2017
 ### pentaho_reports, 0.5
 #### FIX

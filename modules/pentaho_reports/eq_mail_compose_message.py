@@ -92,13 +92,30 @@ class eq_pentaho_mail_compose_message(osv.TransientModel):
         """ change_template-Funktion wird durch den entsprechenden Button ausgelöst und führt durch den Klick ein Wechsel zu dem ausgewählten Template aus.
         Danach wird die Anzeige neu gerendert"""
         m_m_compose_obj = self.browse(cr,uid,ids)
-        default_res_id = context['active_ids'][0]
+
+        print"context: ",context
+
+        if 'active_ids' in context:
+            default_res_id = context['active_ids'][0]
+        elif 'active_id' in context:
+            default_res_id = context['active_id']
+        else:
+            default_res_id = context['default_res_id']
+
+        if 'active_model' in context:
+            default_model = context['active_model']
+        else:
+            default_model = context['default_model']
+
+        #default_model = context['default_model']
+        #default_res_id = context['default_res_id']
+
         ir_model_data = self.pool.get('ir.model.data')
         compose_form_id = ir_model_data.get_object_reference(cr, uid, 'mail', 'email_compose_message_wizard_form')[1]
 
         ctx = context
         ctx.update({
-            'default_model': context['active_model'],
+            'default_model': default_model,
             'default_res_id': default_res_id,
             'default_use_template': bool(m_m_compose_obj.template_id.id),
             'default_template_id': m_m_compose_obj.template_id.id,
