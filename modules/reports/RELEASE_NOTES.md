@@ -1,5 +1,9 @@
 ## Modul reports
 
+### 31.05.2017
+#### CHG
+Angebots Report: Viele Verbesserungen hinzugefügt. So auch die englische Variante.
+
 ### 06.04.2017
 #### FIX
 3 Reports angepasst
