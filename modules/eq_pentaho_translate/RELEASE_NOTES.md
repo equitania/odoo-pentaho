@@ -1,5 +1,10 @@
 ## Modul eq_pentaho_translate
 
+#### 02.06.2017
+### Version 1.0.8
+#### ADD
+- Titel der Ansprechpersonen/Kontakte nun auch multilingual
+
 #### 11.05.2017
 ### Version 1.0.7
 #### FIX
