@@ -1,5 +1,9 @@
 ## Modul reports
 
+### 09.06.2017
+#### IMP+FIX
+Angebote und Rechnung:  Mehrsprachigkeit für Steuerbezeichnungen, sowie Korrektur für Zwischensumme und Übertrag
+
 ### 01.06.2017
 #### FIX
 Angebots Report: Kleiner Fix
