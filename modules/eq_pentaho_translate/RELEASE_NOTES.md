@@ -1,5 +1,11 @@
 ## Modul eq_pentaho_translate
 
+
+#### 09.06.2017
+### Version 1.0.9
+#### ADD
+- Mehrsprachigkeit für die Steuerbezeichnung
+
 #### 02.06.2017
 ### Version 1.0.8
 #### ADD
