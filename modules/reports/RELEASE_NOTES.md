@@ -1,6 +1,10 @@
 ## Modul reports
 
 ### 09.06.2017
+#### CHG
+Lieferschein: Erste Änderungen für die Mehrsprachigkeit
+
+### 09.06.2017
 #### IMP+FIX
 Angebote und Rechnung:  Mehrsprachigkeit für Steuerbezeichnungen, sowie Korrektur für Zwischensumme und Übertrag
 
