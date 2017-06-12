@@ -1,5 +1,10 @@
 ## Modul reports
 
+
+### 123.06.2017
+#### CHG
+Angebot, Rechnung, Lieferschein: Multilinguale Titel und Länder angepasst. Lieferschein nun fertig.
+
 ### 09.06.2017
 #### CHG
 Lieferschein: Erste Änderungen für die Mehrsprachigkeit
