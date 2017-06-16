@@ -1,7 +1,11 @@
 ## Modul reports
 
 
-### 123.06.2017
+### 16.06.2017
+#### CHG
+Rechnung: Verbesserungen im Andruck der Lieferadresse und der Anschrift (Firmenname vor Ansprechpartner)
+
+### 12.06.2017
 #### CHG
 Angebot, Rechnung, Lieferschein: Multilinguale Titel und Länder angepasst. Lieferschein nun fertig.
 
