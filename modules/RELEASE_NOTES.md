@@ -1,3 +1,8 @@
+### 26.06.2017
+### pentaho_reports, 0.8
+#### CHG
+- composition mode wird jetzt dynamisch gesetzt, siehe Beschreibung im Quellcode (Jira-Issue OBA-28)
+
 ### 18.05.2017
 ### pentaho_reports, 0.7
 #### CHG

@@ -31,7 +31,9 @@ class eq_pentaho_mail_compose_message(osv.TransientModel):
         if context is None:
             context = {}
         res = super(eq_pentaho_mail_compose_message, self).default_get(cr, uid, fields, context=context)
-        if res.get('composition_mode') != 'mass_mail' and context.get('default_template_id') and res.get('model') and res.get('res_id'):
+        #### 23.06.2017 Anpassung Jira-Issue OBA-28
+        #if res.get('composition_mode') != 'mass_mail' and context.get('default_template_id') and res.get('model') and res.get('res_id'):
+        if context.get('default_template_id') and res.get('model') and res.get('res_id'):
             res.update(
                 #### Workaround: auskommentiert bezüglich Ticket 4067, Angebotsversand von Pentaho-Reports.
                 # Problematik: onchange_template_id wird 2-Mal ausgeführt, beim 1. Mal sind Werte wie template_id und Model noch enthalten,
@@ -117,7 +119,9 @@ class eq_pentaho_mail_compose_message(osv.TransientModel):
             'default_res_id': default_res_id,
             'default_use_template': bool(m_m_compose_obj.template_id.id),
             'default_template_id': m_m_compose_obj.template_id.id,
-            'default_composition_mode': 'comment',
+            #### 23.06.2017 Anpassung Jira-Issue OBA-28
+            #'default_composition_mode': 'comment',
+            'default_composition_mode': context['default_composition_mode'],
             'mark_so_as_sent': True
         })
         return {
