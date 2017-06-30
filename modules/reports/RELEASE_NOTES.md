@@ -1,5 +1,8 @@
 ## Modul reports
 
+### 30.06.2017
+#### CHG
+Lieferschein: Firmenname in Rechnungsanschrift gesetzt (eq_name_2)
 
 ### 16.06.2017
 #### CHG
