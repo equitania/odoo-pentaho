@@ -32,11 +32,21 @@ install/win32/meta.py
 /share/
 /src/
 /.settings/
+/local/
+/mx/
+pip-selfcheck.json
 
 # PyCharm
 .idea/
-.idea/inspectionProfiles/profiles_settings.xml
-.idea/misc.xml
-.idea/modules.xml
-.idea/odoo-addons.iml
-.idea/workspace.xml
+.idea
+
+# Eclipse
+.project
+.pydevproject
+.settings/
+
+# odoo
+.mailmap
+
+# mac
+.DS_Store
