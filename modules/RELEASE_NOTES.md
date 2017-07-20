@@ -1,3 +1,8 @@
+### 20.07.2017
+### pentaho_reports, 0.9
+#### FIX
+- Ticket #4603: composition mode wird jetzt initialisiert, sofern dieser nicht im context enthalten ist.
+
 ### 26.06.2017
 ### pentaho_reports, 0.8
 #### CHG

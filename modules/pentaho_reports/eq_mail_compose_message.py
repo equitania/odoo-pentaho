@@ -107,6 +107,11 @@ class eq_pentaho_mail_compose_message(osv.TransientModel):
         else:
             default_model = context['default_model']
 
+        if 'default_composition_mode' in context:
+          default_composition_mode = context['default_composition_mode']
+        else:
+          default_composition_mode = 'comment'
+
         #default_model = context['default_model']
         #default_res_id = context['default_res_id']
 
@@ -121,7 +126,10 @@ class eq_pentaho_mail_compose_message(osv.TransientModel):
             'default_template_id': m_m_compose_obj.template_id.id,
             #### 23.06.2017 Anpassung Jira-Issue OBA-28
             #'default_composition_mode': 'comment',
-            'default_composition_mode': context['default_composition_mode'],
+
+            #'default_composition_mode': context['default_composition_mode'],
+            'default_composition_mode': default_composition_mode,
+
             'mark_so_as_sent': True
         })
         return {
